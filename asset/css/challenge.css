@@ -1,0 +1,165 @@
+   .content__challenge {
+       width: 100%;
+       position: relative;
+       top: 120px;
+   }
+   
+   .challenge__recomment {
+       display: flex;
+       justify-content: space-around;
+       width: 1077px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   
+   .challenge__recomment-list {
+       margin-top: 124xp;
+   }
+   
+   .challenge__recomment-img {
+       width: 240px;
+       height: 240px;
+       overflow: hidden;
+       border: 24px solid #FFCC21;
+   }
+   
+   .challenge__recomment-note {
+       text-align: center;
+       position: relative;
+       bottom: 140px;
+   }
+   
+   .challenge__recomment-list .en-note {
+       font-size: 1.4rem;
+   }
+   
+   .challenge__recomment-list .jp-note {
+       font-size: 0.7rem;
+       position: relative;
+       top: 16px;
+       left: 52px;
+       background-color: #FF963C;
+       padding: 4px 16px;
+       width: 140px;
+   }
+   
+   .challenge__record {
+       width: 100%;
+   }
+   
+   .challenge__record-img {
+       display: block;
+       margin-top: 8px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   /* Excercise */
+   
+   .challenge__exercise {
+       width: 960px;
+       margin-top: 48px;
+       margin-left: auto;
+       margin-right: auto;
+       background-color: #414141;
+   }
+   
+   .excercise__heading {
+       display: flex;
+       align-items: center;
+   }
+   
+   .exercise__my-exercise {
+       width: 110px;
+       padding: 16px 24px;
+       color: #fff;
+   }
+   
+   .exercise__my-exercise--time {
+       font-size: 1.2rem;
+       color: #fff;
+   }
+   
+   .exercise__lists {
+       height: 212px;
+       overflow: auto;
+   }
+   
+   .exercise__list {
+       display: flex;
+       justify-content: space-between;
+       width: 100%;
+       flex-wrap: wrap;
+   }
+   
+   .exercise-item {
+       width: 44%;
+       margin: 10px 24px;
+       color: white;
+       display: flex;
+       justify-content: space-between;
+   }
+   
+   .exercise__kcal {
+       color: #FFCC21;
+       padding: 4px 0;
+   }
+   
+   .exercise__time {
+       color: #FFCC21;
+   }
+   
+   .content__my-diary {
+       width: 960px;
+       margin-top: 48px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   
+   .diary-list-time {
+       display: flex;
+       flex-wrap: wrap;
+       margin-top: 12px;
+   }
+   
+   .diary-info {
+       width: 24.3333%;
+       padding: 12px;
+       border: 1px solid #333;
+       margin: 3px;
+   }
+   
+   .my-diary {
+       font-weight: 400;
+       text-transform: uppercase;
+   }
+   
+   .diary-time {
+       width: 24px;
+       line-height: 1.2rem;
+   }
+   
+   .diary-content {
+       margin-top: 8px;
+       font-size: 0.8rem;
+   }
+   
+   .footer {
+       width: 100%;
+       height: 180px;
+       background-color: #414141;
+       margin-top: 200px;
+       display: flex;
+       align-items: center;
+   }
+   
+   .footer-list {
+       display: inherit;
+       list-style: none;
+       margin-left: 220px;
+       font-size: 14px;
+   }
+   
+   .footer-list li {
+       margin-right: 48px;
+       color: #fff;
+   }
